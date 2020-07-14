@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="css/styles2.css">
+	<title> Sorting Algorithm</title>
+	
+</head>
+<body>
+<header class="jumbotron">
+	<div class="conatiner">
+		<div class="row">
+	        <nav>
+		       <div class="array-inputs col-12 col-sm-4 row-header ">
+			      <h4>Size of the array:</h4>
+			        <input id="a_size" type="range" min="20" max="150" step="1" value="80">
+			      <h4>Speed of the Algorithm:</h4>
+			       <input type="range" id="a_speed" min="1" max="5" step="1" value="4">
+			      <button id="a_generate">Generate New Array</button>
+		        </div>
+
+		        <div class="header-right col-12 offset-md-2 col-md-4">
+			       <h4 class="nav-heaading">Sorting Visualizer</h4>
+			
+			        <div class="algo">
+				         <button>Bubble Sort</button>
+				         <button>Selection Sort</button>
+				         <button>Insertion Sort</button>
+				         <button>Merge Sort</button>
+				         <button>Quick Sort</button>
+				         <button style="margin-right: 0px;">Heap</button>
+			        </div>
+		        </div>
+	        </nav>
+        </div>
+    </div>
+</header>
+
+
+<section>
+	<div id="Info_Cont1">
+		<p>This is First Container</p>
+	</div>
+
+	<div id="array_container">
+
+
+	</div>
+	<div id="Info_Cont2">
+         <p>This is Second Container</p>
+		
+	</div>
+
+</section>
+
+
+<footer>
+	<script type="text/javascript" src="./scripts/main.js"></script>
+	 <script src="./scripts/visualizations.js"></script>  
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+</footer>
+</body>
+</html>
